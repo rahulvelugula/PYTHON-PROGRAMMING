@@ -4,6 +4,7 @@ Maintain a list of paintings in an art gallery.
 
 Check whether the painting requested by the customer
 is available in the gallery or not.
+
 """
 
 paintings = [
