@@ -10,7 +10,7 @@ and replace it with new custom text.
 tshirt_features = input().split(", ")
 
 new_text = input()
-
+#list methods
 position = tshirt_features.index("add your text here")
 
 tshirt_features.remove("add your text here")
