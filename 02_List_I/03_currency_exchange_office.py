@@ -11,13 +11,14 @@ If the requested currency is available:
 Otherwise:
 - inform the customer
 - add it to currencies to order
+
 """
 
 available_currencies = input().split(", ")
 order_currencies = input().split(", ")
 
 currency = input()
-
+#list methods
 if currency in available_currencies:
     print(f"Yes, {currency} are available.")
     available_currencies.remove(currency)
