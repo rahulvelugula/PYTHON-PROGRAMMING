@@ -6,17 +6,13 @@ of remaining elements.
 
 """
 
-# Read list of numbers
 nums = list(map(int, input().split()))
 
-#Read value to remove
 val = int(input())
 
 k = 0
 
-# Move non-val elements to front
 for num in nums:
-
     if num != val:
         nums[k] = num
         k += 1
