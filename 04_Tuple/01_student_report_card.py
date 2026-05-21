@@ -5,18 +5,15 @@ and find the topper using tuples.
 
 """
 
-# Read number of records
 n = int(input())
 students = {}
 
-# Read student records
 for i in range(n):
 
     name, subject, marks = input().split()
     marks = int(marks)
     record = (subject, marks)
 
-    # Store marks for each student
     if name not in students:
         students[name] = []
 
