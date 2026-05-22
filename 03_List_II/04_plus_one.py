@@ -5,13 +5,9 @@ as a list of digits by one.
 
 """
 
-#Read digits as list
 digits = list(map(int, input().split()))
-
-#Traverse from the last digit
 for i in range(len(digits) - 1, -1, -1):
 
-    # If digit is less than 9, add one and stop
     if digits[i] < 9:
         digits[i] += 1
         print(digits)
