@@ -21,12 +21,15 @@ Perform the following operations:
 
 6. Display missing letters
    in alphabetical order.
+   
 """
 
 word1 = input()
 word2 = input()
 word1 = word1.lower()
 word2 = word2.lower()
+
+#alphabet set
 alphabet = set("abcdefghijklmnopqrstuvwxyz")
 
 present_letters = set(word1) | set(word2)
