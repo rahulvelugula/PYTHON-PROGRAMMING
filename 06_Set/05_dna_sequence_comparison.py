@@ -26,7 +26,7 @@ set1 = set(dna1)
 set2 = set(dna2)
 
 bases = {"A", "T", "C", "G"}
-
+#operations
 common = set1 & set2
 unique1 = set1 - set2
 unique2 = set2 - set1
