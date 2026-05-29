@@ -7,7 +7,7 @@ Perform the following operations:
 1. Add a new patient:
    - Sugar
    - horse
-   - age 4
+   - age 4.
 
 2. Print all animal names:
    - using a loop through elements
