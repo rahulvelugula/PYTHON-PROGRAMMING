@@ -14,7 +14,7 @@ Perform the following operations:
 4. Find the combined unique list
    of all items without duplicates.
 
-5. Display all results
+5. Display all result
 """
 
 home = set(input().split())
