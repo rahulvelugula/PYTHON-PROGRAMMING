@@ -6,7 +6,7 @@ for three college courses.
 Perform the following operations:
 
 1. Find students enrolled in
-   all three courses.
+   all three courses
 
 2. Find students enrolled in
    exactly two courses.
