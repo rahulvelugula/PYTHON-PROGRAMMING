@@ -39,4 +39,4 @@ only_one = (
 
 print(f"Students in all three courses: {all_three}")
 print(f"Students in exactly two courses: {exactly_two}")
-print(f"Students in only one course: {only_one}")
+print(f"Students in only one of course: {only_one}")
